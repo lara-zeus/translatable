@@ -82,7 +82,7 @@ trait Translatable
         $translatableAttributes = static::getResource()::getTranslatableAttributes();
 
         $this->otherLocaleData[$this->oldActiveLocale] = Arr::only(
-            array_merge($this->form->getState(false),$this->form->getState()),
+            array_merge($this->form->getState(false), $this->form->getState()),
             $translatableAttributes
         );
 
