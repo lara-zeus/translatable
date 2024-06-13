@@ -85,7 +85,6 @@ trait Translatable
 
         $this->otherLocaleData[$this->oldActiveLocale] = Arr::only(
             $this->form->getRawState(),
-//            array_merge($this->form->getState(),$this->form->getState(false)),
             $translatableAttributes
         );
 
