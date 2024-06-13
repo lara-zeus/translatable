@@ -43,7 +43,7 @@ trait Translatable
 
             try {
                 $this->form->fill(
-                    array_merge($this->form->getState(),$this->form->getState(false))
+                    array_merge($this->form->getState(false),$this->form->getState())
                 );
                 $this->form->validate();
             } catch (ValidationException $exception) {
@@ -84,14 +84,15 @@ trait Translatable
         $translatableAttributes = static::getResource()::getTranslatableAttributes();
 
         $this->otherLocaleData[$this->oldActiveLocale] = Arr::only(
-            array_merge($this->form->getState(),$this->form->getState(false)),
+            $this->form->getRawState(),
+//            array_merge($this->form->getState(),$this->form->getState(false)),
             $translatableAttributes
         );
 
         try {
             $this->form->fill([
                 ...Arr::except(
-                    array_merge($this->form->getState(),$this->form->getState(false)),
+                    array_merge($this->form->getState(false),$this->form->getState(false)),
                     $translatableAttributes
                 ),
                 ...$this->otherLocaleData[$this->activeLocale] ?? [],
