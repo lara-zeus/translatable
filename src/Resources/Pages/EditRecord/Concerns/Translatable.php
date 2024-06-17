@@ -83,7 +83,7 @@ trait Translatable
 
         try {
             $this->otherLocaleData[$this->oldActiveLocale] = Arr::only(
-                $this->form->getState(),
+                $this->form->getRawState(),
                 $translatableAttributes
             );
 
