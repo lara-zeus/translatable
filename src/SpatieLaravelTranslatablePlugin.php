@@ -13,6 +13,7 @@ class SpatieLaravelTranslatablePlugin implements Plugin
 
     final public function __construct()
     {
+        //
     }
 
     public static function make(): static

@@ -9,4 +9,5 @@ use Filament\Actions\LocaleSwitcher as BaseLocaleSwitcher;
  */
 class LocaleSwitcher extends BaseLocaleSwitcher
 {
+    //
 }
