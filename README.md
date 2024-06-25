@@ -27,10 +27,6 @@ We are committed to providing ongoing improvements and welcome contributions and
 - 🔥 Setting the translatable locales for a particular resource
 - 🔥 Translating relation managers
 
-## Translatable Pro
-
-[![translatable-pro](https://larazeus.com/images/translatable-pro-ad.png)](https://larazeus.com/translatable-pro)
-
 ## Full Documentation
 
 > Visit our website to get the complete documentation: https://larazeus.com/docs/translatable
@@ -55,8 +51,8 @@ If you find any security-related issues, please email info@larazeus.com instead 
 
 ## Credits
 
--   [php coder](https://github.com/atmonshi)
 -   [Dan Harrin](https://github.com/danharrin)
+-   [php coder](https://github.com/atmonshi)
 -   [Mohamed Sabil](https://github.com/mohamedsabil83)
 -   [All Contributors](../../contributors)
 
