@@ -14,6 +14,7 @@ class SpatieLaravelTranslatableContentDriver implements TranslatableContentDrive
 {
     public function __construct(protected string $activeLocale)
     {
+        //
     }
 
     public function isAttributeTranslatable(string $model, string $attribute): bool
