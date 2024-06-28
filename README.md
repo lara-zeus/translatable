@@ -31,6 +31,22 @@ We are committed to providing ongoing improvements and welcome contributions and
 
 > Visit our website to get the complete documentation: https://larazeus.com/docs/translatable
 
+### Important Note on Using the Local Switcher
+
+Please be aware that there are some known limitations when using the local switcher with certain complex field types.
+
+To avoid potential issues, we recommend disabling the local switcher and using the specified field types instead.
+
+#### Available Components for Translatable Fields:
+
+* https://filamentphp.com/plugins/solution-forest-translate-field
+* https://filamentphp.com/plugins/mvenghaus-translatable-inline
+* https://filamentphp.com/plugins/outerweb-translatable-fields
+* https://filamentphp.com/plugins/34ml-translatable-field
+
+You can also create your own custom fields. Please refer to the following example:
+
+* https://github.com/lara-zeus/chaos/blob/1.x/src/Forms/Components/MultiLang.php
 
 ## Changelog
 
