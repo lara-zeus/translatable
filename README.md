@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-translatable.png" /></a>
+<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-translatable.wepb" /></a>
 </p>
 
 <h4 align="center">Lara Zeus Translatable is Filament support for Spatie's Laravel Translatable package.</h4>
@@ -7,7 +7,7 @@
 ## Support Filament
 
 <a href="https://github.com/sponsors/danharrin">
-<img alt="filament-logo" src="https://larazeus.com/images/filament-sponsor-banner.png">
+<img alt="filament-logo" src="https://larazeus.com/images/filament-sponsor-banner.wepb">
 </a>
 
 ## Introduction
