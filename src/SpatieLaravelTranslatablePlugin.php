@@ -48,9 +48,11 @@ class SpatieLaravelTranslatablePlugin implements Plugin
         return $this;
     }
 
-    public function getLocaleLabelUsing(?Closure $callback): void
+    public function getLocaleLabelUsing(?Closure $callback): static
     {
         $this->getLocaleLabelUsing = $callback;
+
+        return $this;
     }
 
     public function getLocaleLabel(string $locale, ?string $displayLocale = null): ?string
