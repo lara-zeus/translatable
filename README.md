@@ -4,6 +4,9 @@
 
 <h4 align="center">Lara Zeus Translatable is Filament support for Spatie's Laravel Translatable package.</h4>
 
+> [!IMPORTANT]  
+> This plugin is for filament v3 only, if you're looking for filament v4 support, please check the new repo: [spatie translatable](https://github.com/lara-zeus/spatie-translatable).
+
 ## Support Filament
 
 <a href="https://github.com/sponsors/danharrin">
