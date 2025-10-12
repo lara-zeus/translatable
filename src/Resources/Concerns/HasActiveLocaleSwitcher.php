@@ -65,5 +65,4 @@ trait HasActiveLocaleSwitcher
             throw $e;
         }
     }
-
 }
