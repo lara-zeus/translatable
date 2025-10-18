@@ -4,6 +4,7 @@ namespace Filament\Resources\Concerns;
 
 use Filament\SpatieLaravelTranslatableContentDriver;
 use Filament\Support\Contracts\TranslatableContentDriver;
+use Illuminate\Support\Arr;
 use Illuminate\Validation\ValidationException;
 
 trait HasActiveLocaleSwitcher
